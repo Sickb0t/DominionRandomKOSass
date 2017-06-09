@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dominon Random</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="/">Rand</a></li>
+                    <li><a href="/cardlist">Clist</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="cards">
+        <h2>Randomize c</h2>
+	    <div class="wrapper">
+            <div class="pick-box-div col-md-4" >
+                <div class="pick-box-top col-md-12">
+                    <div class="first col-md-6">
+                        <span>Include box</span>
+                    </div>
+                    <div class="second col-md-6">
+                        <span>Min cards from box</span>
+                    </div>
+                </div>
+                <div class="pick-box-bottom col-md-12" data-bind="foreach: boxesRandom">     
+                    <div class="col-md-12">
+                        <div class="pick-box-bot-first col-md-6">
+                            <input class="checkbox" type="checkbox" data-bind="value: $data" />
+                            <span data-bind="text: $data"></span>
+                        </div>              
+                        <div class="pick-box-bot-second col-md-6">                        
+                            <input class="input-fields" type="text" data-bind="attr: {'name': $data}" /> 
+                        </div>                    
+                    </div>
+                </div>
+                <div class="include-attack col-md-12">
+                    <input id="checkbox-attack" class="checkbox-attack" type="checkbox" data-bind="value: includeAttack" checked="checked" />
+                    <span class="">Include attack cards ?</span>
+                </div>
+                <div class="button-div" data-bind="click: $root.sendCardsToRandomize">                    
+                    <span>Randomize!</span>
+                </div>
+            </div>
+            <div class="cards-div col-md-8" data-bind="foreach: randomizedCards" >
+                <ul class="col-md-3">
+                    <img data-bind="attr: {src: img}" />                    
+                    <span>Name: </span><li data-bind="text: name"></li>             
+                    <span>Type: </span><li data-bind="text: type, style: { color: CheckCardType(type) }"></li>                    
+                    <span>Box: </span><li data-bind="text: box"></li>
+                    <span>Cost: </span><li data-bind="text: cost"></li>
+                </ul>   
+            </div>            
+	    </div>	
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="public/scripts/knockout-3.4.1.js"></script>
+    <script type="text/javascript" src="public/scripts/lodash.core.js"></script>
+    <script type="text/javascript" src="public/scripts/script.js"></script>    
+</body>
+</html>

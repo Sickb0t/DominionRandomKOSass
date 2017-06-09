@@ -1,0 +1,1830 @@
+{
+    "cards": [{
+            "name": "Cellar",
+            "type": "Action",
+            "cost": "2",
+            "box": "Base",
+            "img": "public/content/img/200px-Cellar.jpg"
+        },
+        {
+            "name": "Chapel",
+            "type": "Action",
+            "cost": "2",
+            "box": "Base",
+            "img": "public/content/img/200px-Chapel.jpg"
+        },
+        {
+            "name": "Moat",
+            "type": "Action – Reaction",
+            "cost": "2",
+            "box": "Base",
+            "img": "public/content/img/200px-Moat.jpg"
+        },
+        {
+            "name": "Chancellor",
+            "type": "Action",
+            "cost": "3",
+            "box": "Base",
+            "img": "public/content/img/200px-Chancellor.jpg"
+        },
+        {
+            "name": "Village",
+            "type": "Action",
+            "cost": "3",
+            "box": "Base",
+            "img": "public/content/img/200px-Village.jpg"
+        },
+        {
+            "name": "Woodcutter",
+            "type": "Action",
+            "cost": "3",
+            "box": "Base",
+            "img": "public/content/img/200px-Woodcutter.jpg"
+        },
+        {
+            "name": "Workshop",
+            "type": "Action",
+            "cost": "3",
+            "box": "Base",
+            "img": "public/content/img/200px-Workshop.jpg"
+        },
+        {
+            "name": "Bureaucrat",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Bureaucrat.jpg"
+        },
+        {
+            "name": "Feast",
+            "type": "Action",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Feast.jpg"
+        },
+        {
+            "name": "Gardens",
+            "type": "Victory",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Gardens.jpg"
+        },
+        {
+            "name": "Militia",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Militia.jpg"
+        },
+        {
+            "name": "Moneylender",
+            "type": "Action",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Moneylender.jpg"
+        },
+        {
+            "name": "Remodel",
+            "type": "Action",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Remodel.jpg"
+        },
+        {
+            "name": "Smithy",
+            "type": "Action",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Smithy.jpg"
+        },
+        {
+            "name": "Spy",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Spy.jpg"
+        },
+        {
+            "name": "Thief",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Thief.jpg"
+        },
+        {
+            "name": "Throne Room",
+            "type": "Action",
+            "cost": "4",
+            "box": "Base",
+            "img": "public/content/img/200px-Throne_Room.jpg"
+        },
+        {
+            "name": "Council Room",
+            "type": "Action",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Council_Room.jpg"
+        },
+        {
+            "name": "Festival",
+            "type": "Action",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Festival.jpg"
+        },
+        {
+            "name": "Laboratory",
+            "type": "Action",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Laboratory.jpg"
+        },
+        {
+            "name": "Library",
+            "type": "Action",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Library.jpg"
+        },
+        {
+            "name": "Market",
+            "type": "Action",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Market.jpg"
+        },
+        {
+            "name": "Mine",
+            "type": "Action",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Mine.jpg"
+        },
+        {
+            "name": "Witch",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Base",
+            "img": "public/content/img/200px-Witch.jpg"
+        },
+        {
+            "name": "Adventurer",
+            "type": "Action",
+            "cost": "6",
+            "box": "Base",
+            "img": "public/content/img/200px-Adventurer.jpg"
+        },
+        {
+            "name": "Courtyard",
+            "type": "Action",
+            "cost": "2",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Courtyard.jpg"
+        },
+        {
+            "name": "Pawn",
+            "type": "Action",
+            "cost": "2",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Pawn.jpg"
+        },
+        {
+            "name": "Secret Chamber",
+            "type": "Action – Reaction",
+            "cost": "2",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Secret_Chamber.jpg"
+        },
+        {
+            "name": "Great Hall",
+            "type": "Action – Victory",
+            "cost": "3",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Great_Hall.jpg"
+        },
+        {
+            "name": "Masquerade",
+            "type": "Action",
+            "cost": "3",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Masquerade.jpg"
+        },
+        {
+            "name": "Shanty Town",
+            "type": "Action",
+            "cost": "3",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Shanty_Town.jpg"
+        },
+        {
+            "name": "Steward",
+            "type": "Action",
+            "cost": "3",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Steward.jpg"
+        },
+        {
+            "name": "Swindler",
+            "type": "Action – Attack",
+            "cost": "3",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Swindler.jpg"
+        },
+        {
+            "name": "Wishing Well",
+            "type": "Action",
+            "cost": "3",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Wishing_Well.jpg"
+        },
+        {
+            "name": "Baron",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Baron.jpg"
+        },
+        {
+            "name": "Bridge",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Bridge.jpg"
+        },
+        {
+            "name": "Conspirator",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Conspirator.jpg"
+        },
+        {
+            "name": "Coppersmith",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Coppersmith.jpg"
+        },
+        {
+            "name": "Ironworks",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Ironworks.jpg"
+        },
+        {
+            "name": "Mining Village",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Mining_Village.jpg"
+        },
+        {
+            "name": "Scout",
+            "type": "Action",
+            "cost": "4",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Scout.jpg"
+        },
+        {
+            "name": "Duke",
+            "type": "Victory",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Duke.jpg"
+        },
+        {
+            "name": "Minion",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Minion.jpg"
+        },
+        {
+            "name": "Saboteur",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Saboteur.jpg"
+        },
+        {
+            "name": "Torturer",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Torturer.jpg"
+        },
+        {
+            "name": "Trading Post",
+            "type": "Action",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Trading_Post.jpg"
+        },
+        {
+            "name": "Tribute",
+            "type": "Action",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Tribute.jpg"
+        },
+        {
+            "name": "Upgrade",
+            "type": "Action",
+            "cost": "5",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Upgrade.jpg"
+        },
+        {
+            "name": "Harem",
+            "type": "Treasure – Victory",
+            "cost": "6",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Harem.jpg"
+        },
+        {
+            "name": "Nobles",
+            "type": "Action – Victory",
+            "cost": "6",
+            "box": "Intrigue",
+            "img": "public/content/img/200px-Nobles.jpg"
+        },
+        {
+            "name": "Embargo",
+            "type": "Action",
+            "cost": "2",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Embargo.jpg"
+        },
+        {
+            "name": "Haven",
+            "type": "Action – Duration",
+            "cost": "2",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Haven.jpg"
+        },
+        {
+            "name": "Lighthouse",
+            "type": "Action – Duration",
+            "cost": "2",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Lighthouse.jpg"
+        },
+        {
+            "name": "Native Village",
+            "type": "Action",
+            "cost": "2",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Native_Village.jpg"
+        },
+        {
+            "name": "Pearl Diver",
+            "type": "Action",
+            "cost": "2",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Pearl_Diver.jpg"
+        },
+        {
+            "name": "Ambassador",
+            "type": "Action – Attack",
+            "cost": "3",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Ambassador.jpg"
+        },
+        {
+            "name": "Fishing Village",
+            "type": "Action – Duration",
+            "cost": "3",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Fishing_Village.jpg"
+        },
+        {
+            "name": "Lookout",
+            "type": "Action",
+            "cost": "3",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Lookout.jpg"
+        },
+        {
+            "name": "Smugglers",
+            "type": "Action",
+            "cost": "3",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Smugglers.jpg"
+        },
+        {
+            "name": "Warehouse",
+            "type": "Action",
+            "cost": "3",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Warehouse.jpg"
+        },
+        {
+            "name": "Caravan",
+            "type": "Action – Duration",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Caravan.jpg"
+        },
+        {
+            "name": "Cutpurse",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Cutpurse.jpg"
+        },
+        {
+            "name": "Island",
+            "type": "Action – Victory",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Island.jpg"
+        },
+        {
+            "name": "Navigator",
+            "type": "Action",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Navigator.jpg"
+        },
+        {
+            "name": "Pirate Ship",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Pirate_Ship.jpg"
+        },
+        {
+            "name": "Salvager",
+            "type": "Action",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Salvager.jpg"
+        },
+        {
+            "name": "Sea Hag",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Sea_Hag.jpg"
+        },
+        {
+            "name": "Treasure Map",
+            "type": "Action",
+            "cost": "4",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Treasure_Map.jpg"
+        },
+        {
+            "name": "Bazaar",
+            "type": "Action",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Bazaar.jpg"
+        },
+        {
+            "name": "Explorer",
+            "type": "Action",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Explorer.jpg"
+        },
+        {
+            "name": "Ghost Ship",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Ghost_Ship.jpg"
+        },
+        {
+            "name": "Merchant Ship",
+            "type": "Action – Duration",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Merchant_Ship.jpg"
+        },
+        {
+            "name": "Outpost",
+            "type": "Action – Duration",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Outpost.jpg"
+        },
+        {
+            "name": "Tactician",
+            "type": "Action – Duration",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Tactician.jpg"
+        },
+        {
+            "name": "Treasury",
+            "type": "Action",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Treasury.jpg"
+        },
+        {
+            "name": "Wharf",
+            "type": "Action – Duration",
+            "cost": "5",
+            "box": "Seaside",
+            "img": "public/content/img/200px-Wharf.jpg"
+        },
+        {
+            "name": "Herbalist",
+            "type": "Action",
+            "cost": "2",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Herbalist.jpg"
+        },
+        {
+            "name": "Apprentice",
+            "type": "Action",
+            "cost": "5",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Apprentice.jpg"
+        },
+        {
+            "name": "Transmute",
+            "type": "Action",
+            "cost": "0(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Transmute.jpg"
+        },
+        {
+            "name": "Vineyard",
+            "type": "Victory",
+            "cost": "0(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Vineyard.jpg"
+        },
+        {
+            "name": "Apothecary",
+            "type": "Action",
+            "cost": "2(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Apothecary.jpg"
+        },
+        {
+            "name": "Scrying Pool",
+            "type": "Action – Attack",
+            "cost": "2(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Scrying_Pool.jpg"
+        },
+        {
+            "name": "University",
+            "type": "Action",
+            "cost": "2(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-University.jpg"
+        },
+        {
+            "name": "Alchemist",
+            "type": "Action",
+            "cost": "3(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Alchemist.jpg"
+        },
+        {
+            "name": "Familiar",
+            "type": "Action – Attack",
+            "cost": "3(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Familiar.jpg"
+        },
+        {
+            "name": "Philosopher’s Stone",
+            "type": "Treasure",
+            "cost": "3(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Philosopher's_Stone.jpg"
+        },
+        {
+            "name": "Golem",
+            "type": "Action",
+            "cost": "4(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Golem.jpg"
+        },
+        {
+            "name": "Possession",
+            "type": "Action",
+            "cost": "6(s)",
+            "box": "Alchemy",
+            "img": "public/content/img/200px-Possession.jpg"
+        },
+        {
+            "name": "Loan",
+            "type": "Treasure",
+            "cost": "3",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Loan.jpg"
+        },
+        {
+            "name": "Trade Route",
+            "type": "Action",
+            "cost": "3",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Trade_Route.jpg"
+        },
+        {
+            "name": "Watchtower",
+            "type": "Action – Reaction",
+            "cost": "3",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Watchtower.jpg"
+        },
+        {
+            "name": "Bishop",
+            "type": "Action",
+            "cost": "4",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Bishop.jpg"
+        },
+        {
+            "name": "Monument",
+            "type": "Action",
+            "cost": "4",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Monument.jpg"
+        },
+        {
+            "name": "Quarry",
+            "type": "Treasure",
+            "cost": "4",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Quarry.jpg"
+        },
+        {
+            "name": "Talisman",
+            "type": "Treasure",
+            "cost": "4",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Talisman.jpg"
+        },
+        {
+            "name": "Worker’s Village",
+            "type": "Action",
+            "cost": "4",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Worker's_Village.jpg"
+        },
+        {
+            "name": "City",
+            "type": "Action",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-City.jpg"
+        },
+        {
+            "name": "Contraband",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Contraband.jpg"
+        },
+        {
+            "name": "Counting House",
+            "type": "Action",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Counting_House.jpg"
+        },
+        {
+            "name": "Mint",
+            "type": "Action",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Mint.jpg"
+        },
+        {
+            "name": "Mountebank",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Mountebank.jpg"
+        },
+        {
+            "name": "Rabble",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Rabble.jpg"
+        },
+        {
+            "name": "Royal Seal",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Royal_Seal.jpg"
+        },
+        {
+            "name": "Vault",
+            "type": "Action",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Vault.jpg"
+        },
+        {
+            "name": "Venture",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Venture.jpg"
+        },
+        {
+            "name": "Goons",
+            "type": "Action – Attack",
+            "cost": "6",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Goons.jpg"
+        },
+        {
+            "name": "Grand Market",
+            "type": "Action",
+            "cost": "6",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Grand_Market.jpg"
+        },
+        {
+            "name": "Hoard",
+            "type": "Treasure",
+            "cost": "6",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Hoard.jpg"
+        },
+        {
+            "name": "Bank",
+            "type": "Treasure",
+            "cost": "7",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Bank.jpg"
+        },
+        {
+            "name": "Expand",
+            "type": "Action",
+            "cost": "7",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Expand.jpg"
+        },
+        {
+            "name": "Forge",
+            "type": "Action",
+            "cost": "7",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Forge.jpg"
+        },
+        {
+            "name": "King’s Court",
+            "type": "Action",
+            "cost": "7",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-King's_Court.jpg"
+        },
+        {
+            "name": "Peddler",
+            "type": "Action",
+            "cost": "8(s)",
+            "box": "Prosperity",
+            "img": "public/content/img/200px-Peddler.jpg"
+        },
+        {
+            "name": "Hamlet",
+            "type": "Action",
+            "cost": "2",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Hamlet.jpg"
+        },
+        {
+            "name": "Fortune Teller",
+            "type": "Action – Attack",
+            "cost": "3",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Fortune_Teller.jpg"
+        },
+        {
+            "name": "Menagerie",
+            "type": "Action",
+            "cost": "3",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Menagerie.jpg"
+        },
+        {
+            "name": "Farming Village",
+            "type": "Action",
+            "cost": "4",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Farming_Village.jpg"
+        },
+        {
+            "name": "Horse Traders",
+            "type": "Action – Reaction",
+            "cost": "4",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Horse_Traders.jpg"
+        },
+        {
+            "name": "Remake",
+            "type": "Action",
+            "cost": "4",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Remake.jpg"
+        },
+        {
+            "name": "Tournament",
+            "type": "Action",
+            "cost": "4",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Tournament.jpg"
+        },
+        {
+            "name": "Young Witch",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Young_Witch.jpg"
+        },
+        {
+            "name": "Harvest",
+            "type": "Action",
+            "cost": "5",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Harvest.jpg"
+        },
+        {
+            "name": "Horn of Plenty",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Horn_of_Plenty.jpg"
+        },
+        {
+            "name": "Hunting Party",
+            "type": "Action",
+            "cost": "5",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Hunting_Party.jpg"
+        },
+        {
+            "name": "Jester",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Jester.jpg"
+        },
+        {
+            "name": "Fairgrounds",
+            "type": "Victory",
+            "cost": "6",
+            "box": "Cornucopia",
+            "img": "public/content/img/200px-Fairgrounds.jpg"
+        },
+        {
+            "name": "Crossroads",
+            "type": "Action",
+            "cost": "2",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Crossroads.jpg"
+        },
+        {
+            "name": "Duchess",
+            "type": "Action",
+            "cost": "2",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Duchess.jpg"
+        },
+        {
+            "name": "Fool’s Gold",
+            "type": "Treasure – Reaction",
+            "cost": "2",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Fool's_Gold.jpg"
+        },
+        {
+            "name": "Develop",
+            "type": "Action",
+            "cost": "3",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Develop.jpg"
+        },
+        {
+            "name": "Oasis",
+            "type": "Action – Attack",
+            "cost": "3",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Oasis.jpg"
+        },
+        {
+            "name": "Scheme",
+            "type": "Action",
+            "cost": "3",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Scheme.jpg"
+        },
+        {
+            "name": "Tunnel",
+            "type": "Victory – Reaction",
+            "cost": "3",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Tunnel.jpg"
+        },
+        {
+            "name": "Jack of All Trades",
+            "type": "Action",
+            "cost": "4",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Jack_of_All_Trades.jpg"
+        },
+        {
+            "name": "Noble Brigand",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Cellar.jpg"
+        },
+        {
+            "name": "Nomad Camp",
+            "type": "Action",
+            "cost": "4",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Nomad_Camp.jpg"
+        },
+        {
+            "name": "Silk Road",
+            "type": "Victory",
+            "cost": "4",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Silk_Road.jpg"
+        },
+        {
+            "name": "Spice Merchant",
+            "type": "Action",
+            "cost": "4",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Spice_Merchant.jpg"
+        },
+        {
+            "name": "Trader",
+            "type": "Action – Reaction",
+            "cost": "4",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Trader.jpg"
+        },
+        {
+            "name": "Cache",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Cache.jpg"
+        },
+        {
+            "name": "Cartographer",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Cartographer.jpg"
+        },
+        {
+            "name": "Embassy",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Embassy.jpg"
+        },
+        {
+            "name": "Haggler",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Haggler.jpg"
+        },
+        {
+            "name": "Highway",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Highway.jpg"
+        },
+        {
+            "name": "Ill-Gotten Gains",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Ill-Gotten_Gains.jpg"
+        },
+        {
+            "name": "Inn",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Inn.jpg"
+        },
+        {
+            "name": "Mandarin",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Mandarin.jpg"
+        },
+        {
+            "name": "Margrave",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Margrave.jpg"
+        },
+        {
+            "name": "Stables",
+            "type": "Action",
+            "cost": "5",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Stables.jpg"
+        },
+        {
+            "name": "Border Village",
+            "type": "Action",
+            "cost": "6",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Border_Village.jpg"
+        },
+        {
+            "name": "Farmland",
+            "type": "Victory",
+            "cost": "6",
+            "box": "Hinterlands",
+            "img": "public/content/img/200px-Farmland.jpg"
+        },
+        {
+            "name": "Poor House",
+            "type": "Action",
+            "cost": "1",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Poor_House.jpg"
+        },
+        {
+            "name": "Beggar",
+            "type": "Action – Reaction",
+            "cost": "2",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Beggar.jpg"
+        },
+        {
+            "name": "Squire",
+            "type": "Action",
+            "cost": "2",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Squire.jpg"
+        },
+        {
+            "name": "Vagrant",
+            "type": "Action",
+            "cost": "2",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Vagrant.jpg"
+        },
+        {
+            "name": "Forager",
+            "type": "Action",
+            "cost": "3",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Forager.jpg"
+        },
+        {
+            "name": "Hermit",
+            "type": "Action",
+            "cost": "3",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Hermit.jpg"
+        },
+        {
+            "name": "Market Square",
+            "type": "Action – Reaction",
+            "cost": "3",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Market_Square.jpg"
+        },
+        {
+            "name": "Storeroom",
+            "type": "Action",
+            "cost": "3",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Storeroom.jpg"
+        },
+        {
+            "name": "Urchin",
+            "type": "Action – Attack",
+            "cost": "3",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Urchin.jpg"
+        },
+        {
+            "name": "Armory",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Armory.jpg"
+        },
+        {
+            "name": "Death Cart",
+            "type": "Action – Looter",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Death_Cart.jpg"
+        },
+        {
+            "name": "Feodum",
+            "type": "Victory",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Feodum.jpg"
+        },
+        {
+            "name": "Fortress",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Fortress.jpg"
+        },
+        {
+            "name": "Ironmonger",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Ironmonger.jpg"
+        },
+        {
+            "name": "Marauder",
+            "type": "Action – Attack – Looter",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Marauder.jpg"
+        },
+        {
+            "name": "Procession",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Procession.jpg"
+        },
+        {
+            "name": "Rats",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Rats.jpg"
+        },
+        {
+            "name": "Scavenger",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Scavenger.jpg"
+        },
+        {
+            "name": "Wandering Minstrel",
+            "type": "Action",
+            "cost": "4",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Wandering_Minstrel.jpg"
+        },
+        {
+            "name": "Band of Misfits",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Band_of_Misfits.jpg"
+        },
+        {
+            "name": "Bandit Camp",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Bandit_Camp.jpg"
+        },
+        {
+            "name": "Catacombs",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Catacombs.jpg"
+        },
+        {
+            "name": "Count",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Count.jpg"
+        },
+        {
+            "name": "Counterfeit",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Counterfeit.jpg"
+        },
+        {
+            "name": "Cultist",
+            "type": "Action – Attack – Looter",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Cultist.jpg"
+        },
+        {
+            "name": "Graverobber",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Graverobber.jpg"
+        },
+        {
+            "name": "Junk Dealer",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Junk_Dealer.jpg"
+        },
+        {
+            "name": "Mystic",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Mystic.jpg"
+        },
+        {
+            "name": "Pillage",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Pillage.jpg"
+        },
+        {
+            "name": "Rebuild",
+            "type": "Action",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Rebuild.jpg"
+        },
+        {
+            "name": "Rogue",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Rogue.jpg"
+        },
+        {
+            "name": "Altar",
+            "type": "Action",
+            "cost": "6",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Altar.jpg"
+        },
+        {
+            "name": "Hunting Grounds",
+            "type": "Action",
+            "cost": "6",
+            "box": "Dark Ages",
+            "img": "public/content/img/200px-Hunting_Grounds.jpg"
+        },
+        {
+            "name": "Candlestick Maker",
+            "type": "Action",
+            "cost": "2",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Candlestick_Maker.jpg"
+        },
+        {
+            "name": "Stonemason",
+            "type": "Action",
+            "cost": "2+",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Stonemason.jpg"
+        },
+        {
+            "name": "Doctor",
+            "type": "Action",
+            "cost": "3+",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Doctor.jpg"
+        },
+        {
+            "name": "Masterpiece",
+            "type": "Treasure",
+            "cost": "3+",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Masterpiece.jpg"
+        },
+        {
+            "name": "Advisor",
+            "type": "Action",
+            "cost": "4",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Advisor.jpg"
+        },
+        {
+            "name": "Herald",
+            "type": "Action",
+            "cost": "4+",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Herald.jpg"
+        },
+        {
+            "name": "Plaza",
+            "type": "Action",
+            "cost": "4",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Plaza.jpg"
+        },
+        {
+            "name": "Taxman",
+            "type": "Action – Attack",
+            "cost": "4",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Taxman.jpg"
+        },
+        {
+            "name": "Baker",
+            "type": "Action",
+            "cost": "5",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Baker.jpg"
+        },
+        {
+            "name": "Butcher",
+            "type": "Action",
+            "cost": "5",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Butcher.jpg"
+        },
+        {
+            "name": "Journeyman",
+            "type": "Action",
+            "cost": "5",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Journeyman.jpg"
+        },
+        {
+            "name": "Merchant Guild",
+            "type": "Action",
+            "cost": "5",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Merchant_Guild.jpg"
+        },
+        {
+            "name": "Soothsayer",
+            "type": "Action – Attack",
+            "cost": "5",
+            "box": "Guilds",
+            "img": "public/content/img/200px-Soothsayer.jpg"
+        },
+        {
+            "name": "Black Market",
+            "type": "Action",
+            "cost": "3",
+            "box": "Promo",
+            "img": "public/content/img/200px-Black_Market.jpg"
+        },
+        {
+            "name": "Envoy",
+            "type": "Action",
+            "cost": "4",
+            "box": "Promo",
+            "img": "public/content/img/200px-Envoy.jpg"
+        },
+        {
+            "name": "Walled Village",
+            "type": "Action",
+            "cost": "4",
+            "box": "Promo",
+            "img": "public/content/img/200px-Walled_Village.jpg"
+        },
+        {
+            "name": "Governor",
+            "type": "Action",
+            "cost": "5",
+            "box": "Promo",
+            "img": "public/content/img/200px-Governor.jpg"
+        },
+        {
+            "name": "Stash",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Promo",
+            "img": "public/content/img/200px-Stash.jpg"
+        },
+        {
+            "name": "Coin of the Realm",
+            "type": "Treasure - Reserve",
+            "cost": "2",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Coin_of_the_Realm.jpg"
+        },
+        {
+            "name": "Page",
+            "type": "Action- Traveller",
+            "cost": "2",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Page.jpg"
+        },
+        {
+            "name": "Peasant",
+            "type": "Action - Traveller",
+            "cost": "2",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Peasant.jpg"
+        },
+        {
+            "name": "Ratcatcher",
+            "type": "Action- Reserve",
+            "cost": "2",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Ratcatcher.jpg"
+        },
+        {
+            "name": "Raze",
+            "type": "Action",
+            "cost": "2",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Raze.jpg"
+        },
+        {
+            "name": "Amulet",
+            "type": "Action - Duration",
+            "cost": "3",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Amulet.jpg"
+        },
+        {
+            "name": "Caravan Guard",
+            "type": "Action - Duration - Reaction",
+            "cost": "3",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Caravan_Guard.jpg"
+        },
+        {
+            "name": "Dungeon",
+            "type": "Action - Duration",
+            "cost": "3",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Dungeon.jpg"
+        },
+        {
+            "name": "Gear",
+            "type": "Action - Duration",
+            "cost": "3",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Gear.jpg"
+        },
+        {
+            "name": "Guide",
+            "type": "Action - Reserve",
+            "cost": "3",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Guide.jpg"
+        },
+        {
+            "name": "Duplicate",
+            "type": "Action - Reserve",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Duplicate.jpg"
+        },
+        {
+            "name": "Magpie",
+            "type": "Action",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Magpie.jpg"
+        },
+        {
+            "name": "Messenger",
+            "type": "Action",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Messenger.jpg"
+        },
+        {
+            "name": "Miser",
+            "type": "Action",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Miser.jpg"
+        },
+        {
+            "name": "Port",
+            "type": "Action",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Port.jpg"
+        },
+        {
+            "name": "Ranger",
+            "type": "Action",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Ranger.jpg"
+        },
+        {
+            "name": "Transmogrify",
+            "type": "Action - Reserve",
+            "cost": "4",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Transmogrify.jpg"
+        },
+        {
+            "name": "Artificer",
+            "type": "Action",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Artificer.jpg"
+        },
+        {
+            "name": "Bridge Troll",
+            "type": "Action - Attack - Duration",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Bridge_Troll.jpg"
+        },
+        {
+            "name": "Distant Lands",
+            "type": "Action - Reserve - Victory",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Distant_Lands.jpg"
+        },
+        {
+            "name": "Giant",
+            "type": "Action - Attack",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Giant.jpg"
+        },
+        {
+            "name": "Haunted Woods",
+            "type": "Action - Attack - Duration",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Haunted_Woods.jpg"
+        },
+        {
+            "name": "Lost City",
+            "type": "Action",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Lost_City.jpg"
+        },
+        {
+            "name": "Relic",
+            "type": "Treasure - Attack",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Relic.jpg"
+        },
+        {
+            "name": "Royal Carriage",
+            "type": "Action - Reserve",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Royal_Carriage.jpg"
+        },
+        {
+            "name": "Storyteller",
+            "type": "Action",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Storyteller.jpg"
+        },
+        {
+            "name": "Swamp Hag",
+            "type": "Action - Attack - Duration",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Swamp_Hag.jpg"
+        },
+        {
+            "name": "Treasure Trove",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Treasure_Trove.jpg"
+        },
+        {
+            "name": "Wine Merchant",
+            "type": "Action - Reserve",
+            "cost": "5",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Wine_Merchant.jpg"
+        },
+        {
+            "name": "Hireling",
+            "type": "Action - Duration",
+            "cost": "6",
+            "box": "Adventures",
+            "img": "public/content/img/200px-Hireling.jpg"
+        },
+        {
+            "name": "Engineer",
+            "type": "Action",
+            "cost": "4*",
+            "box": "Empires",
+            "img": "public/content/img/200px-Engineer.jpg"
+        },
+        {
+            "name": "City Quarter",
+            "type": "Action",
+            "cost": "8*",
+            "box": "Empires",
+            "img": "public/content/img/200px-City_Quarter.jpg"
+        },
+        {
+            "name": "Overlord",
+            "type": "Action",
+            "cost": "8*",
+            "box": "Empires",
+            "img": "public/content/img/200px-Overlord.jpg"
+        },
+        {
+            "name": "Royal Blacksmith",
+            "type": "Action",
+            "cost": "8*",
+            "box": "Empires",
+            "img": "public/content/img/200px-Royal_Blacksmith.jpg"
+        },
+        {
+            "name": "Encampment",
+            "type": "Action",
+            "cost": "2",
+            "box": "Empires",
+            "img": "public/content/img/200px-Encampment.jpg"
+        },
+        {
+            "name": "Plunder",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Plunder.jpg"
+        },
+        {
+            "name": "Patrician",
+            "type": "Action",
+            "cost": "2",
+            "box": "Empires",
+            "img": "public/content/img/200px-Patrician.jpg"
+        },
+        {
+            "name": "Emporium",
+            "type": "Action",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Emporium.jpg"
+        },
+        {
+            "name": "Settlers",
+            "type": "Action",
+            "cost": "2",
+            "box": "Empires",
+            "img": "public/content/img/200px-Settlers.jpg"
+        },
+        {
+            "name": "Bustling Village",
+            "type": "Action",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Bustling_Village.jpg"
+        },
+        {
+            "name": "Castles",
+            "type": "Victory - Castle",
+            "cost": "3",
+            "box": "Empires",
+            "img": "public/content/img/200px-Castles.jpg"
+        },
+        {
+            "name": "Catapult",
+            "type": "Action - Attack",
+            "cost": "3",
+            "box": "Empires",
+            "img": "public/content/img/200px-Catapult.jpg"
+        },
+        {
+            "name": "Rocks",
+            "type": "Treasure",
+            "cost": "4",
+            "box": "Empires",
+            "img": "public/content/img/200px-Rocks.jpg"
+        },
+        {
+            "name": "Chariot Race",
+            "type": "Action",
+            "cost": "3",
+            "box": "Empires",
+            "img": "public/content/img/200px-Chariot_Race.jpg"
+        },
+        {
+            "name": "Enchantress",
+            "type": "Action - Attack - Duration",
+            "cost": "3",
+            "box": "Empires",
+            "img": "public/content/img/200px-Enchantress.jpg"
+        },
+        {
+            "name": "Farmers Market",
+            "type": "Action - Gathering",
+            "cost": "3",
+            "box": "Empires",
+            "img": "public/content/img/200px-Farmers'_Market.jpg"
+        },
+        {
+            "name": "Gladiator",
+            "type": "Action",
+            "cost": "3",
+            "box": "Empires",
+            "img": "public/content/img/200px-Gladiator.jpg"
+        },
+        {
+            "name": "Fortune",
+            "type": "Treasure",
+            "cost": "8*",
+            "box": "Empires",
+            "img": "public/content/img/200px-Fortune.jpg"
+        },
+        {
+            "name": "Sacrifice",
+            "type": "Action",
+            "cost": "4",
+            "box": "Empires",
+            "img": "public/content/img/200px-Sacrifice.jpg"
+        },
+        {
+            "name": "Temple",
+            "type": "Action - Gathering",
+            "cost": "4",
+            "box": "Empires",
+            "img": "public/content/img/200px-Temple.jpg"
+        },
+        {
+            "name": "Villa",
+            "type": "Action",
+            "cost": "4",
+            "box": "Empires",
+            "img": "public/content/img/200px-Villa.jpg"
+        },
+        {
+            "name": "Archive",
+            "type": "Action - Duration",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Archive.jpg"
+        },
+        {
+            "name": "Capital",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Capital.jpg"
+        },
+        {
+            "name": "Charm",
+            "type": "Treasure",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Charm.jpg"
+        },
+        {
+            "name": "Crown",
+            "type": "Action - Treasure",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Crown.jpg"
+        },
+        {
+            "name": "Forum",
+            "type": "Action",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Forum.jpg"
+        },
+        {
+            "name": "Groundskeeper",
+            "type": "Action",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Groundskeeper.jpg"
+        },
+        {
+            "name": "Legionary",
+            "type": "Action - Attack",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Legionary.jpg"
+        },
+        {
+            "name": "Wild Hunt",
+            "type": "Action",
+            "cost": "5",
+            "box": "Empires",
+            "img": "public/content/img/200px-Wild_Hunt.jpg"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+CORNUCOPIA
+
+Prizes (these are not in the Supply, and only used with Tournament)
+
+Bag of Gold	Action – Prize	$0*	+1 Action
+Gain a Gold, putting it on top of your deck.
+Diadem	Treasure – Prize	$0*	Worth $2.
+When you play this, +$1 per unused Action you have (Action, not Action card).
+Followers	Action – Attack – Prize	$0*	+2 Cards
+Gain an Estate. Each other player gains a Curse and discards down to 3 cards in hand.
+Princess	Action – Prize	$0*	+1 Buy
+While this is in play, cards cost $2 less, but not less than $0.
+Trusty Steed	Action – Prize	$0*	Choose two: +2 Cards; or +2 Actions; or +$2; or gain 4 Silvers and put your deck into your discard pile.
+
+
+DARK AGES
+
+Ruins			50 total, 10 of each type, shuffled into a pile of ten per opponent, like Curses
+Abandoned Mine	Action – Ruins	$0	+$1
+Ruined Library	Action – Ruins	$0	+1 Card
+Ruined Market	Action – Ruins	$0	+1 Buy
+Ruined Village	Action – Ruins	$0	+1 Action
+Survivors	Action – Ruins	$0	Look at the top 2 cards of your deck. Discard them or put them back in any order.
+Knights			One of each, all shuffled into one Kingdom pile
+Dame Anna	Action – Attack – Knight	$5	You may trash up to 2 cards from your hand.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Dame Josephine	Action – Attack – Victory – Knight	$5	Worth 2 VP.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Dame Molly	Action – Attack – Knight	$5	+2 Actions.
+Each other player discards the top 2 cards of his deck, and trashes one of them costing from $3 to $6. If a Knight is trashed by this, trash this card.
+Dame Natalie	Action – Attack – Knight	$5	You may gain a card costing up to $3.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Dame Sylvia	Action – Attack – Knight	$5	+$2
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Bailey	Action – Attack – Knight	$5	+1 Card; +1 Action
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Destry	Action – Attack – Knight	$5	+2 Cards
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Martin	Action – Attack – Knight	$4	+2 Buys
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Michael	Action – Attack – Knight	$5	Each other player discards down to 3 cards in hand.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Vander	Action – Attack – Knight	$5	Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+___
+When this is trashed, gain a Gold.
+Shelters			Replaces starting Estates
+Hovel	Reaction – Shelter	$1	When you buy a Victory card, you may trash this from your hand.
+Necropolis	Action – Shelter	$1	+2 Actions
+Overgrown Estate	Victory – Shelter	$1	0 VP
+___
+When you trash this, +1 Card.

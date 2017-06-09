@@ -1,0 +1,17 @@
+{
+  "name": "dominionrandomknockoutsass",
+  "version": "1.0.0",
+  "description": "Dominon random",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.6",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emil",
+  "license": "ISC"
+}

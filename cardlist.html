@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dominon Random Knockout Sass</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="/">Rand</a></li>
+                    <li><a href="/cardlist">Clist</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="cards" class="col-md-12">
+            <h2>List of all c</h2>
+            <div class="wrapper">
+                <div class="filter col-md-12">
+                    <div class="searchBoxWrapper col-md-12">
+                        <p>Search by cname</p>
+                        <input class="filterTextBox" data-bind="event: { keyup:$root.showNameFilteredContent }" />
+                    </div>
+                    <ul data-bind="foreach: boxes">
+                        <div class="filter-holder col-md-1">
+                            <li class="listed-boxes" data-bind="text: $data, click: $root.showBoxFilteredContent"></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="cards-div col-md-12" data-bind="foreach: card">
+                        <div class="card-comlete col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                            <div class="col-md-12">
+                                <img data-bind="attr: {src: img}" />
+                            </div>
+                            <!--<ul>-->
+                            <div class="cardContent col-md-12">
+                                <span class="card-header">Name: </span>
+                                <span class="card-value" data-bind="text: name"></span>
+                            </div>
+                            <div class="cardContent col-md-12">
+                                <span class="card-header">Type: </span>
+                                <span class="card-value" data-bind="text: type, style: { color: CheckCardType(type) }"></span>
+                            </div>
+                            <div class="cardContent col-md-12">
+                                <span class="card-header">Box: </span>
+                                <span class="card-value" data-bind="text: box"></span>
+                            </div>
+                            <div class="cardContent col-md-12">
+                                <span class="card-header">Cost: </span>
+                                <span class="card-value" data-bind="text: cost"></span>
+                            </div>
+                            <!--</ul>-->
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="public/scripts/knockout-3.4.1.js"></script>
+    <script type="text/javascript" src="public/scripts/lodash.core.js"></script>
+    <script type="text/javascript" src="public/scripts/script.js"></script>
+
+
+</body>
+
+</html>

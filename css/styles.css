@@ -1,0 +1,109 @@
+html {
+  overflow-y: scroll; }
+
+#main-nav {
+  max-width: 1366px;
+  margin: 0 auto;
+  background: #032f3e; }
+  #main-nav ul {
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0px; }
+    #main-nav ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+  #main-nav li {
+    float: left;
+    width: 50%; }
+  #main-nav a {
+    color: #f8f9fb;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center; }
+    #main-nav a:hover {
+      background: #05546f; }
+
+#cards .cards-div img {
+  width: 90%;
+  width: 90%; }
+
+#cards .pick-box-div {
+  height: 100%; }
+  #cards .pick-box-div .pick-box-top .first span,
+  #cards .pick-box-div .pick-box-top .second span {
+    font-weight: bold; }
+  #cards .pick-box-div .pick-box-bottom .pick-box-bot-first .checkbox {
+    float: left; }
+  #cards .pick-box-div .pick-box-bottom .pick-box-bot-first span {
+    float: left; }
+  #cards .pick-box-div .button-div {
+    width: 100px;
+    float: left;
+    margin: 5px;
+    background-color: #000000; }
+    #cards .pick-box-div .button-div span {
+      display: block;
+      text-align: center;
+      padding: 14px;
+      color: #ffffff; }
+  #cards .pick-box-div .button-div:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+    cursor: pointer; }
+  #cards .pick-box-div .include-attack .checkbox-attack {
+    float: left; }
+  #cards .pick-box-div .include-attack span {
+    float: left; }
+
+#cards .filter .searchBoxWrapper {
+  min-height: 10px; }
+  #cards .filter .searchBoxWrapper p {
+    float: left;
+    margin: auto;
+    display: block; }
+  #cards .filter .searchBoxWrapper .filterTextBox {
+    float: left;
+    margin: auto;
+    display: block; }
+
+#cards .filter li {
+  list-style-type: none;
+  text-align: center;
+  background-color: #000000;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 80px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  border-radius: 10px; }
+
+#cards .filter li:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+  cursor: pointer; }
+
+#cards .filter .active {
+  background-color: #33B5E5;
+  color: #000000; }
+
+#cards .cards-div {
+  float: left;
+  margin-top: 20px; }
+  #cards .cards-div .card-comlete {
+    min-height: 330px;
+    overflow: hidden; }
+    #cards .cards-div .card-comlete .cardContent .card-header {
+      float: left;
+      font-weight: bold; }
+    #cards .cards-div .card-comlete .cardContent .card-value {
+      float: left; }
+  #cards .cards-div .title {
+    font-weight: bold; }
+  #cards .cards-div .ending {
+    font-weight: normal; }

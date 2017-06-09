@@ -1,0 +1,159 @@
+@import "variables";
+@import "mixins";
+html {
+    overflow-y: scroll;
+}
+
+#main-nav {
+    max-width: $maxWidth;
+    margin: 0 auto;
+    background: $deepBlue;
+    ul {
+        width: 100%;
+        list-style-type: none;
+        padding-left: 0px;
+        @include clearFix;
+    }
+    li {
+        @include left;
+        width: (100%/2);
+    }
+    a {
+        color: $offWhite;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        &:hover {
+            background: lighten($deepBlue, 10);
+        }
+    }
+}
+
+#cards {
+    h2 {}
+    //Random
+    .cards-div {
+        img {
+            @include img;
+        }
+    }
+    .pick-box-div {
+        height: 100%;
+        .pick-box-top {
+            .first,
+            .second {
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+        .pick-box-bottom {
+            .pick-box-bot-first {
+                .checkbox {
+                    @include left;
+                }
+                span {
+                    @include left;
+                }
+            }
+            .pick-box-bot-second {}
+        }
+        .button-div {
+            width: 100px;
+            @include left;
+            margin: 5px;
+            background-color: #000000;
+            span {
+                display: block;
+                text-align: center;
+                padding: 14px;
+                color: #ffffff;
+            }
+        }
+        .button-div:hover {
+            text-decoration: none;
+            color: #000000;
+            background-color: $lightBlue;
+            cursor: pointer;
+        }
+        .include-attack {
+            .checkbox-attack {
+                @include left;
+            }
+            span {
+                @include left;
+            }
+        }
+    }
+    //CardList
+    .filter {
+        .searchBoxWrapper {
+            min-height: 10px;
+            p {
+                @include left;
+                margin: auto;
+                display: block;
+            }
+            .filterTextBox {
+                @include left;
+                margin: auto;
+                display: block;
+            }
+        }
+        li {
+            list-style-type: none;
+            text-align: center;
+            background-color: #000000;
+            margin-right: 30px;
+            margin-top: 10px;
+            width: 80px;
+            line-height: 40px;
+            text-decoration: none;
+            color: #FFFFFF;
+            display: block;
+            border-radius: 10px;
+        }
+        li:hover {
+            text-decoration: none;
+            color: #000000;
+            background-color: $lightBlue;
+            cursor: pointer;
+        }
+        .active {
+            background-color: $lightBlue;
+            color: #000000;
+        }
+    }
+    .cards-div {
+        @include left;
+        margin-top: 20px;
+        .card-comlete {
+            min-height: 330px;
+            overflow: hidden;
+            // ul {
+            //     list-style-type: none;
+            .cardContent {
+                // max-width: 70px;
+                .card-header {
+                    @include left;
+                    font-weight: bold;
+                    // max-width: 100%                        
+                }
+                .card-value {
+                    @include left;
+                }
+                // }
+            }
+        }
+        .title {
+            font-weight: bold;
+        }
+        .ending {
+            font-weight: normal;
+        }
+        img {
+            // @include img;
+        }
+    }
+}
