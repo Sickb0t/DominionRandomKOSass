@@ -40,6 +40,7 @@ html {
     }
     .pick-box-div {
         height: 100%;
+        max-width: 400px;
         .pick-box-top {
             .first,
             .second {
@@ -128,24 +129,31 @@ html {
     .cards-div {
         @include left;
         margin-top: 20px;
+        .cards-list {
+            padding: 10 0 0 0;
+        }
         .card-comlete {
-            min-height: 330px;
+            min-height: 430px;
             overflow: hidden;
-            // ul {
-            //     list-style-type: none;
-            .cardContent {
-                // max-width: 70px;
-                .card-header {
-                    @include left;
-                    font-weight: bold;
-                    // max-width: 100%                        
+            ul {
+                list-style-type: none;
+                @include clearFix;
+                .cardContent {
+                    // max-width: 70px;
+                    .card-header {
+                        @include left;
+                        font-weight: bold;
+                        // max-width: 100%                        
+                    }
+                    .card-value {
+                        @include left;
+                    }
                 }
-                .card-value {
-                    @include left;
-                }
-                // }
             }
         }
+        // .card-complete-rand {
+        //     min-height: 430px;
+        // }
         .title {
             font-weight: bold;
         }
@@ -153,6 +161,10 @@ html {
             font-weight: normal;
         }
         img {
+            // display: block;
+            // max-height: 300px;
+            // width: auto;
+            // height: auto;
             // @include img;
         }
     }

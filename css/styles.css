@@ -30,7 +30,8 @@ html {
   width: 90%; }
 
 #cards .pick-box-div {
-  height: 100%; }
+  height: 100%;
+  max-width: 400px; }
   #cards .pick-box-div .pick-box-top .first span,
   #cards .pick-box-div .pick-box-top .second span {
     font-weight: bold; }
@@ -95,14 +96,22 @@ html {
 #cards .cards-div {
   float: left;
   margin-top: 20px; }
+  #cards .cards-div .cards-list {
+    padding: 10 0 0 0; }
   #cards .cards-div .card-comlete {
-    min-height: 330px;
+    min-height: 430px;
     overflow: hidden; }
-    #cards .cards-div .card-comlete .cardContent .card-header {
-      float: left;
-      font-weight: bold; }
-    #cards .cards-div .card-comlete .cardContent .card-value {
-      float: left; }
+    #cards .cards-div .card-comlete ul {
+      list-style-type: none; }
+      #cards .cards-div .card-comlete ul:after {
+        content: "";
+        display: block;
+        clear: both; }
+      #cards .cards-div .card-comlete ul .cardContent .card-header {
+        float: left;
+        font-weight: bold; }
+      #cards .cards-div .card-comlete ul .cardContent .card-value {
+        float: left; }
   #cards .cards-div .title {
     font-weight: bold; }
   #cards .cards-div .ending {
