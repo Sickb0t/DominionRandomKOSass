@@ -77,6 +77,11 @@ function testFun() {
     var a = null;
 }
 
+function testFun2() {
+    var a = null;
+}
+
+
 function RandomizeCards(dictionaryOfBoxPreferences, jsonCards, attackCards, validCardCount) {
     var cardsToReturn = [];
     var cardsToBePushed = [];
