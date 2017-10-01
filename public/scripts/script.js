@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = function() {
     LoadInitialEventsCss();
 };
 
@@ -15,15 +15,15 @@ function CardViewModel() {
     self.boxesRandom = ['Base', 'Intrigue', 'Seaside', 'Alchemy', 'Prosperity', 'Cornucopia', 'Hinterlands', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Promo'];
     self.card = ko.observableArray();
     self.randomizedCards = ko.observableArray();
-    self.showBoxFilteredContent = function (box) {  //Cards filtered by BUTTON click and box type
+    self.showBoxFilteredContent = function(box) { //Cards filtered by BUTTON click and box type
         jsonCards = FetchCardsByJson();
         filteredCards = box === 'All' ? jsonCards.cards : _.filter(jsonCards.cards, { 'box': box });
         filteredCards = _.sortBy(filteredCards, 'name');
         self.card(filteredCards);
     };
-    self.showNameFilteredContent = function (event, data) {  //Cards filtered by TEXTBOX on keyup
+    self.showNameFilteredContent = function(event, data) { //Cards filtered by TEXTBOX on keyup
         var txtBoxValue = data.currentTarget.value;
-        var cardsContainingValue = _.filter(filteredCards, function (item) {
+        var cardsContainingValue = _.filter(filteredCards, function(item) {
             return item.name.toLowerCase().indexOf(txtBoxValue.toLowerCase()) !== -1;
         });
 
@@ -33,18 +33,18 @@ function CardViewModel() {
 
     var nrOfCardsFromBox = ko.observableArray();
 
-    self.sendCardsToRandomize = function (data) {   // Cards to be randomized by randomize BUTTON click
+    self.sendCardsToRandomize = function(data) { // Cards to be randomized by randomize BUTTON click
         var test = nrOfCardsFromBox;
         var boxesChecked = [];
         var dictionaryOfBoxPreferences = [];
         var validCardCount = 0;
         var attackCards = document.getElementById('checkbox-attack').checked;
 
-        $(':checkbox:checked').each(function (i) {    // Check what boxes to include
+        $(':checkbox:checked').each(function(i) { // Check what boxes to include
             boxesChecked[i] = $(this).val();
         });
 
-        $("input[class='input-fields']").map(function () {  // Get minimum number of cards from each box that is to be included
+        $("input[class='input-fields']").map(function() { // Get minimum number of cards from each box that is to be included
             var boxName, nrOfCardsFromBox;
             boxName = $(this)[0].name;
             nrOfCardsFromBox = $(this).val() === '' ? '0' : $(this).val();
@@ -56,15 +56,14 @@ function CardViewModel() {
             }
         });
 
-        dictionaryOfBoxPreferences.forEach(function (card) {
+        dictionaryOfBoxPreferences.forEach(function(card) {
             validCardCount = validCardCount + Number(card.value);
         });
 
-        if (validCardCount <= 10) {     //Make sure no more than 10 cards
+        if (validCardCount <= 10) { //Make sure no more than 10 cards
             var cardsRandom = RandomizeCards(dictionaryOfBoxPreferences, jsonCards, attackCards, validCardCount);
             self.randomizedCards(cardsRandom);
-        }
-        else {
+        } else {
             alert('Count exceeded');
         }
     };
@@ -85,27 +84,26 @@ function RandomizeCards(dictionaryOfBoxPreferences, jsonCards, attackCards, vali
         jsonCards = RemoveAttackCards(jsonCards);
     }
 
-    if (dictionaryOfBoxPreferences.length !== 0) {        // Check if specific number of cards from boxes
-        dictionaryOfBoxPreferences.forEach(function (pref) {
+    if (dictionaryOfBoxPreferences.length !== 0) { // Check if specific number of cards from boxes
+        dictionaryOfBoxPreferences.forEach(function(pref) {
 
             var filteredCards = _.filter(jsonCards, { 'box': pref.key });
             if (validCardCount === 0) {
-                filteredCards.forEach(function (card) {
+                filteredCards.forEach(function(card) {
                     listBoxesNoNumber.push(card);
                 });
                 // cardsToBePushed = ShuffleAndSlice(filteredCards, shuffled, 10);
-            }
-            else {
+            } else {
                 cardsToBePushed = ShuffleAndSlice(filteredCards, shuffled, pref.value);
             }
             if (validCardCount)
-                cardsToBePushed.forEach(function (card) {
+                cardsToBePushed.forEach(function(card) {
                     cardsToReturn.push(card);
                 });
         });
 
         if (validCardCount === 0 && dictionaryOfBoxPreferences.length !== 0) {
-            listBoxesNoNumber.forEach(function (card) {
+            listBoxesNoNumber.forEach(function(card) {
                 cardsToReturn.push(card);
             });
             cardsToReturn = ShuffleAndSlice(cardsToReturn, shuffled, 10);
@@ -113,18 +111,16 @@ function RandomizeCards(dictionaryOfBoxPreferences, jsonCards, attackCards, vali
 
         if (cardsToReturn.length === 10) {
             return cardsToReturn;
-        }
-        else {
+        } else {
             var newJsonCards = [];
             var additionalSum = 10 - cardsToReturn.length;
-            cardsToReturn.forEach(function (card) {   //  Make sure no doubles
+            cardsToReturn.forEach(function(card) { //  Make sure no doubles
                 if (newJsonCards.length === 0) {
-                    newJsonCards = jsonCards.filter(function (c) {
+                    newJsonCards = jsonCards.filter(function(c) {
                         return c.name !== card.name;
                     });
-                }
-                else {
-                    newJsonCards = newJsonCards.filter(function (c) {
+                } else {
+                    newJsonCards = newJsonCards.filter(function(c) {
                         return c.name !== card.name;
                     });
                 }
@@ -132,15 +128,14 @@ function RandomizeCards(dictionaryOfBoxPreferences, jsonCards, attackCards, vali
 
             var additionalCards = ShuffleAndSlice(newJsonCards, shuffled, additionalSum);
 
-            additionalCards.forEach(function (card) {
+            additionalCards.forEach(function(card) {
                 cardsToReturn.push(card);
             });
             return cardsToReturn;
         }
 
 
-    }
-    else {
+    } else {
         cardsToReturn = ShuffleAndSlice(jsonCards, shuffled, 10);
         return cardsToReturn;
     }
@@ -148,7 +143,7 @@ function RandomizeCards(dictionaryOfBoxPreferences, jsonCards, attackCards, vali
 
 function RemoveAttackCards(jsonCards) {
     var listWithoutAttack = [];
-    jsonCards.forEach(function (card) {
+    jsonCards.forEach(function(card) {
         if (card.type.indexOf('Attack') === -1) {
             listWithoutAttack.push(card);
         }
@@ -182,10 +177,10 @@ function FetchCardsByJson() {
         async: false,
         url: "public/content/cards.json",
         dataType: "json",
-        success: function (data) {
+        success: function(data) {
             json = data;
         },
-        error: function (xhr, textStatus, errorThrown) {
+        error: function(xhr, textStatus, errorThrown) {
             console.log('request failed: ' + errorThrown);
         }
     });
@@ -194,9 +189,8 @@ function FetchCardsByJson() {
 
 function LoadInitialEventsCss() {
     $('.filter-holder li:first').addClass('active');
-    $('.filter-holder li').on('click', function () {    //Click event for box buttons    
+    $('.filter-holder li').on('click', function() { //Click event for box buttons    
         $('.filter-holder li').removeClass('active');
         $(this).addClass('active');
     });
 };
-
