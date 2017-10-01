@@ -18,6 +18,10 @@ html {
         @include left;
         width: (100%/2);
     }
+    .added-underline {
+        text-decoration: underline;
+        background: lighten($deepBlue, 10);
+    }
     a {
         color: $offWhite;
         text-decoration: none;
@@ -25,13 +29,15 @@ html {
         display: block;
         text-align: center;
         &:hover {
-            background: lighten($deepBlue, 10);
+            background: lighten($deepBlue, 7);
         }
     }
 }
 
 #cards {
-    h2 {}
+    h2 {
+        text-align: center;
+    }
     //Random
     .cards-div {
         img {
@@ -95,35 +101,41 @@ html {
                 @include left;
                 margin: auto;
                 display: block;
+                font-size: 18px;
             }
             .filterTextBox {
                 @include left;
                 margin: auto;
                 display: block;
+                margin-left: 10px;
             }
         }
-        li {
-            list-style-type: none;
-            text-align: center;
-            background-color: #000000;
-            margin-right: 30px;
-            margin-top: 10px;
-            width: 80px;
-            line-height: 40px;
-            text-decoration: none;
-            color: #FFFFFF;
-            display: block;
-            border-radius: 10px;
-        }
-        li:hover {
-            text-decoration: none;
-            color: #000000;
-            background-color: $lightBlue;
-            cursor: pointer;
-        }
-        .active {
-            background-color: $lightBlue;
-            color: #000000;
+        ul {
+            width: 100%;
+            float: left;
+            li {
+                list-style-type: none;
+                text-align: center;
+                background-color: #000000;
+                margin-right: 30px;
+                margin-top: 10px;
+                width: 80px;
+                line-height: 40px;
+                text-decoration: none;
+                color: #FFFFFF;
+                display: block;
+                border-radius: 10px;
+            }
+            li:hover {
+                text-decoration: none;
+                color: #000000;
+                background-color: $lightBlue;
+                cursor: pointer;
+            }
+            .active {
+                background-color: $lightBlue;
+                color: #000000;
+            }
         }
     }
     .cards-div {

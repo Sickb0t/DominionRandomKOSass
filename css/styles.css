@@ -16,6 +16,9 @@ html {
   #main-nav li {
     float: left;
     width: 50%; }
+  #main-nav .added-underline {
+    text-decoration: underline;
+    background: #05546f; }
   #main-nav a {
     color: #f8f9fb;
     text-decoration: none;
@@ -23,7 +26,10 @@ html {
     display: block;
     text-align: center; }
     #main-nav a:hover {
-      background: #05546f; }
+      background: #054960; }
+
+#cards h2 {
+  text-align: center; }
 
 #cards .cards-div img {
   width: 90%;
@@ -64,34 +70,37 @@ html {
   #cards .filter .searchBoxWrapper p {
     float: left;
     margin: auto;
-    display: block; }
+    display: block;
+    font-size: 18px; }
   #cards .filter .searchBoxWrapper .filterTextBox {
     float: left;
     margin: auto;
-    display: block; }
+    display: block;
+    margin-left: 10px; }
 
-#cards .filter li {
-  list-style-type: none;
-  text-align: center;
-  background-color: #000000;
-  margin-right: 30px;
-  margin-top: 10px;
-  width: 80px;
-  line-height: 40px;
-  text-decoration: none;
-  color: #FFFFFF;
-  display: block;
-  border-radius: 10px; }
-
-#cards .filter li:hover {
-  text-decoration: none;
-  color: #000000;
-  background-color: #33B5E5;
-  cursor: pointer; }
-
-#cards .filter .active {
-  background-color: #33B5E5;
-  color: #000000; }
+#cards .filter ul {
+  width: 100%;
+  float: left; }
+  #cards .filter ul li {
+    list-style-type: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 80px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    border-radius: 10px; }
+  #cards .filter ul li:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+    cursor: pointer; }
+  #cards .filter ul .active {
+    background-color: #33B5E5;
+    color: #000000; }
 
 #cards .cards-div {
   float: left;
