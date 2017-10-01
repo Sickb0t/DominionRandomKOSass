@@ -69,14 +69,12 @@ html {
   min-height: 10px; }
   #cards .filter .searchBoxWrapper p {
     float: left;
-    margin: auto;
-    display: block;
     font-size: 18px; }
   #cards .filter .searchBoxWrapper .filterTextBox {
     float: left;
-    margin: auto;
-    display: block;
     margin-left: 10px; }
+  #cards .filter .searchBoxWrapper .searchBoxWrapperCont {
+    margin-left: 3%; }
 
 #cards .filter ul {
   width: 100%;

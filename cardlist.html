@@ -27,8 +27,10 @@
             <div class="wrapper">
                 <div class="filter col-md-12">
                     <div class="searchBoxWrapper col-md-12">
-                        <p>Filter by card name</p>
-                        <input class="filterTextBox" data-bind="event: { keyup:$root.showNameFilteredContent }" />
+                        <div class="searchBoxWrapperCont col-md-6">
+                            <p>Filter by card name</p>
+                            <input class="filterTextBox" data-bind="event: { keyup:$root.showNameFilteredContent }" />
+                        </div>
                     </div>
                     <ul data-bind="foreach: boxes">
                         <div class="filter-holder col-md-1">

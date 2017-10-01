@@ -99,15 +99,18 @@ html {
             min-height: 10px;
             p {
                 @include left;
-                margin: auto;
-                display: block;
+                // margin: auto;
+                // display: block;
                 font-size: 18px;
             }
             .filterTextBox {
                 @include left;
-                margin: auto;
-                display: block;
+                // margin: auto;
+                // display: block;
                 margin-left: 10px;
+            }
+            .searchBoxWrapperCont {
+                margin-left: 3%;
             }
         }
         ul {
