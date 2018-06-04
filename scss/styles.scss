@@ -32,6 +32,7 @@ html {
             background: lighten($deepBlue, 7);
         }
     }
+
 }
 
 #cards {
@@ -44,9 +45,14 @@ html {
             @include img;
         }
     }
+    .cards-from-random{
+        max-width: 60%;
+        float: left;
+    }
     .pick-box-div {
         height: 100%;
-        max-width: 400px;
+        max-width: 25%;
+        float: left;
         .pick-box-top {
             .first,
             .second {
@@ -108,6 +114,7 @@ html {
                 // margin: auto;
                 // display: block;
                 margin-left: 10px;
+                width: 98%;
             }
             .searchBoxWrapperCont {
                 margin-left: 3%;
@@ -147,7 +154,7 @@ html {
         .cards-list {
             padding: 10 0 0 0;
         }
-        .card-comlete {
+        .card-complete {
             min-height: 430px;
             overflow: hidden;
             ul {

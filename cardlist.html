@@ -27,20 +27,19 @@
             <div class="wrapper">
                 <div class="filter col-md-12">
                     <div class="searchBoxWrapper col-md-12">
-                        <div class="searchBoxWrapperCont col-md-6">
-                            <p>Filter by card name</p>
-                            <input class="filterTextBox" data-bind="event: { keyup:$root.showNameFilteredContent }" />
+                        <div class="searchBoxWrapperCont col-md-12">                            
+                            <input class="filterTextBox" type="text" placeholder="Search by card name" data-bind="event: { keyup:$root.showNameFilteredContent }" />
                         </div>
                     </div>
                     <ul data-bind="foreach: boxes">
-                        <div class="filter-holder col-md-1">
+                        <div class="filter-holder col-lg-1 col-md-2 col-sm-4 col-xs-4">
                             <li class="listed-boxes" data-bind="text: $data, click: $root.showBoxFilteredContent"></li>
                         </div>
                     </ul>
                 </div>
                 <div class="row">
                     <div class="cards-div col-md-12" data-bind="foreach: card">
-                        <div class="card-comlete col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="card-complete col-lg-3 col-md-3 col-sm-3">
                             <div class="col-md-12">
                                 <img class="img-card-list" data-bind="attr: {src: img}" />
                             </div>

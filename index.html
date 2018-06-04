@@ -21,10 +21,10 @@
             </div>
         </nav>
     </header>
-    <section id="cards">
+    <section id="cards" class="col-md-12">
         <h2>Randomize cards</h2>
         <div class="wrapper">
-            <div class="pick-box-div col-md-4">
+            <div class="pick-box-div col-md-4" >
                 <div class="pick-box-top col-md-12">
                     <div class="first col-md-6">
                         <span>Include box</span>
@@ -52,9 +52,9 @@
                     <span>Randomize!</span>
                 </div>
             </div>
-            <div class="row">
-                <div class="cards-div col-md-8" data-bind="foreach: randomizedCards">
-                    <div class="card-comlete card-complete-rand col-lg-3 col-md-3 col-sm-4 col-xs-6">
+            <div class="row cards-from-random">
+                <div class="cards-div col-md-12" data-bind="foreach: randomizedCards">
+                    <div class="card-complete card-complete-rand col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="col-md-12">
                             <img data-bind="attr: {src: img}" />
                         </div>

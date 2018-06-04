@@ -1,125 +1,196 @@
 html {
-  overflow-y: scroll; }
+  overflow-y: scroll;
+}
 
 #main-nav {
   max-width: 1366px;
   margin: 0 auto;
-  background: #032f3e; }
-  #main-nav ul {
-    width: 100%;
-    list-style-type: none;
-    padding-left: 0px; }
-    #main-nav ul:after {
-      content: "";
-      display: block;
-      clear: both; }
-  #main-nav li {
-    float: left;
-    width: 50%; }
-  #main-nav .added-underline {
-    text-decoration: underline;
-    background: #05546f; }
-  #main-nav a {
-    color: #f8f9fb;
-    text-decoration: none;
-    padding: 16px;
-    display: block;
-    text-align: center; }
-    #main-nav a:hover {
-      background: #054960; }
+  background: #032f3e;
+}
+
+#main-nav ul {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#main-nav li {
+  float: left;
+  width: 50%;
+}
+
+#main-nav .added-underline {
+  text-decoration: underline;
+  background: #05546f;
+}
+
+#main-nav a {
+  color: #f8f9fb;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+#main-nav a:hover {
+  background: #054960;
+}
 
 #cards h2 {
-  text-align: center; }
+  text-align: center;
+}
 
 #cards .cards-div img {
   width: 90%;
-  width: 90%; }
+  width: 90%;
+}
+
+#cards .cards-from-random {
+  max-width: 60%;
+  float: left;
+}
 
 #cards .pick-box-div {
   height: 100%;
-  max-width: 400px; }
-  #cards .pick-box-div .pick-box-top .first span,
-  #cards .pick-box-div .pick-box-top .second span {
-    font-weight: bold; }
-  #cards .pick-box-div .pick-box-bottom .pick-box-bot-first .checkbox {
-    float: left; }
-  #cards .pick-box-div .pick-box-bottom .pick-box-bot-first span {
-    float: left; }
-  #cards .pick-box-div .button-div {
-    width: 100px;
-    float: left;
-    margin: 5px;
-    background-color: #000000; }
-    #cards .pick-box-div .button-div span {
-      display: block;
-      text-align: center;
-      padding: 14px;
-      color: #ffffff; }
-  #cards .pick-box-div .button-div:hover {
-    text-decoration: none;
-    color: #000000;
-    background-color: #33B5E5;
-    cursor: pointer; }
-  #cards .pick-box-div .include-attack .checkbox-attack {
-    float: left; }
-  #cards .pick-box-div .include-attack span {
-    float: left; }
+  max-width: 25%;
+  float: left;
+}
+
+#cards .pick-box-div .pick-box-top .first span,
+#cards .pick-box-div .pick-box-top .second span {
+  font-weight: bold;
+}
+
+#cards .pick-box-div .pick-box-bottom .pick-box-bot-first .checkbox {
+  float: left;
+}
+
+#cards .pick-box-div .pick-box-bottom .pick-box-bot-first span {
+  float: left;
+}
+
+#cards .pick-box-div .button-div {
+  width: 100px;
+  float: left;
+  margin: 5px;
+  background-color: #000000;
+}
+
+#cards .pick-box-div .button-div span {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  color: #ffffff;
+}
+
+#cards .pick-box-div .button-div:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+  cursor: pointer;
+}
+
+#cards .pick-box-div .include-attack .checkbox-attack {
+  float: left;
+}
+
+#cards .pick-box-div .include-attack span {
+  float: left;
+}
 
 #cards .filter .searchBoxWrapper {
-  min-height: 10px; }
-  #cards .filter .searchBoxWrapper p {
-    float: left;
-    font-size: 18px; }
-  #cards .filter .searchBoxWrapper .filterTextBox {
-    float: left;
-    margin-left: 10px; }
-  #cards .filter .searchBoxWrapper .searchBoxWrapperCont {
-    margin-left: 3%; }
+  min-height: 10px;
+}
+
+#cards .filter .searchBoxWrapper p {
+  float: left;
+  font-size: 18px;
+}
+
+#cards .filter .searchBoxWrapper .filterTextBox {
+  float: left;
+  margin-left: 10px;
+  width: 98%;
+}
+
+#cards .filter .searchBoxWrapper .searchBoxWrapperCont {
+  margin-left: 3%;
+}
 
 #cards .filter ul {
   width: 100%;
-  float: left; }
-  #cards .filter ul li {
-    list-style-type: none;
-    text-align: center;
-    background-color: #000000;
-    margin-right: 30px;
-    margin-top: 10px;
-    width: 80px;
-    line-height: 40px;
-    text-decoration: none;
-    color: #FFFFFF;
-    display: block;
-    border-radius: 10px; }
-  #cards .filter ul li:hover {
-    text-decoration: none;
-    color: #000000;
-    background-color: #33B5E5;
-    cursor: pointer; }
-  #cards .filter ul .active {
-    background-color: #33B5E5;
-    color: #000000; }
+  float: left;
+}
+
+#cards .filter ul li {
+  list-style-type: none;
+  text-align: center;
+  background-color: #000000;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 80px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  border-radius: 10px;
+}
+
+#cards .filter ul li:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+  cursor: pointer;
+}
+
+#cards .filter ul .active {
+  background-color: #33B5E5;
+  color: #000000;
+}
 
 #cards .cards-div {
   float: left;
-  margin-top: 20px; }
-  #cards .cards-div .cards-list {
-    padding: 10 0 0 0; }
-  #cards .cards-div .card-comlete {
-    min-height: 430px;
-    overflow: hidden; }
-    #cards .cards-div .card-comlete ul {
-      list-style-type: none; }
-      #cards .cards-div .card-comlete ul:after {
-        content: "";
-        display: block;
-        clear: both; }
-      #cards .cards-div .card-comlete ul .cardContent .card-header {
-        float: left;
-        font-weight: bold; }
-      #cards .cards-div .card-comlete ul .cardContent .card-value {
-        float: left; }
-  #cards .cards-div .title {
-    font-weight: bold; }
-  #cards .cards-div .ending {
-    font-weight: normal; }
+  margin-top: 20px;
+}
+
+#cards .cards-div .cards-list {
+  padding: 10 0 0 0;
+}
+
+#cards .cards-div .card-complete {
+  min-height: 430px;
+  overflow: hidden;
+}
+
+#cards .cards-div .card-complete ul {
+  list-style-type: none;
+}
+
+#cards .cards-div .card-complete ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#cards .cards-div .card-complete ul .cardContent .card-header {
+  float: left;
+  font-weight: bold;
+}
+
+#cards .cards-div .card-complete ul .cardContent .card-value {
+  float: left;
+}
+
+#cards .cards-div .title {
+  font-weight: bold;
+}
+
+#cards .cards-div .ending {
+  font-weight: normal;
+}
